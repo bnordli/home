@@ -42,7 +42,7 @@ time that suits your usage pattern (I set mine to 20 minutes).
 
     c. Modify the fan profile during hibernation:
       - Make a backup: `cp /usr/syno/etc.defaults/scemd.xml /usr/syno/etc.defaults/scemd.xml.bak`
-      - Put [this file](scemd.xaml) (or just the top `fan_config` tag of it) in `/usr/syno/etc.defaults/scemd.xml`.
+      - Put [this file](scemd.xml) (or just the top `fan_config` tag of it) in `/usr/syno/etc.defaults/scemd.xml`.
       - Set the new settings during startup: `cp /usr/syno/etc.defaults/scemd.xml /usr/syno/etc/scemd.xml`
 
 5. Restart the unit to apply the new configuration (or just `synoservice --restart scemd`, but I didn't try this).
