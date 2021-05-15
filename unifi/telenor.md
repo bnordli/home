@@ -67,7 +67,12 @@ cd data/sites/${site}
 cat > config.gateway.json
 ```
 For USG Pro 4, paste the contents of [`config.gateway.json`](gateway/config.gateway.json) and end with `ctrl-D`.
-For Regular USG, copy the file locally and change "eth0" to "eth1" and "eth2" to "eth1".
+For Regular USG, copy the file locally first and change "eth0" to "eth1" and "eth2" to "eth1" (see [interfaces.md](gateway/interfaces.md)).
+
+You might want to change the ownership of the new folders and files afterwards:
+```
+chown -R unifi:unifi ..
+```
 
 Reprovision the Gateway using the UI and then verify that igmp-proxy is running by `ssh`-ing to the *Gateway*  and running `ps aux | grep igmp` to verify that `/sbin/igmpproxy` is running.
 
