@@ -20,9 +20,3 @@ https://community.ui.com/questions/IGMP-IPTV-on-USG-PRO/3a2d3c22-c1a4-4a92-a7c6-
 
 https://community.ui.com/questions/Step-by-Step-guide-to-configuring-USG-to-work-with-BT-TV-Multicast-IP-TV-Services/b2c72429-7fcc-4a86-b3d8-0cbc443a4760?page=18 !!
 
-
-USG Pro 4:
-LAN1 = eth0, LAN2 = eth1, WAN1 = eth2, WAN2 = eth3
-
-USG (3)
-WAN1 = eth0, LAN1 = eth1, WAN2/LAN2 = eth2
