@@ -68,6 +68,7 @@ cat > config.gateway.json
 ```
 For USG Pro 4, paste the contents of [`config.gateway.json`](gateway/config.gateway.json) and end with `ctrl-D`.
 For Regular USG, copy the file locally first and change "eth0" to "eth1" and "eth2" to "eth1" (see [interfaces.md](gateway/interfaces.md)).
+If you have your decoder in a different subnet, modify the "downstream" IP range to point to this subnet.
 
 You might want to change the ownership of the new folders and files afterwards:
 ```
