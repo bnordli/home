@@ -53,7 +53,7 @@ Telenor's IP have been identified [here](https://stavdal.me/2019/05/how-to-set-u
 You also need to disable strict source validation, see below.
 
 ### Enable IGMP proxy (and disable strict firewall)
-The Gateway must act as an IGMP proxy to translate the IGMP messages to and from the internal network. This cannot be configured in the UI, so you need to put a [`unificonfig.gateway.json`](gateway/config.gateway.json) file on the UniFi *Controller* and then reprovision the gateway.
+The Gateway must act as an IGMP proxy to translate the IGMP messages to and from the internal network. This cannot be configured in the UI, so you need to put a [`config.gateway.json`](gateway/config.gateway.json) file on the UniFi *Controller* and then reprovision the gateway.
 
 `ssh` to the controller and `cd` to the [unifi-base](https://help.ui.com/hc/en-us/articles/115004872967-UniFi-Where-is-unifi-base-) folder:
 ```
@@ -66,7 +66,7 @@ mkdir -p data/sites/${site}
 cd data/sites/${site}
 cat > config.gateway.json
 ```
-For USG Pro 4, paste the contents of [`config.gateway.json`](unifi/gateway/config.gateway.json) and end with `ctrl-D`.
+For USG Pro 4, paste the contents of [`config.gateway.json`](gateway/config.gateway.json) and end with `ctrl-D`.
 For Regular USG, copy the file locally and change "eth0" to "eth1" and "eth2" to "eth1".
 
 Reprovision the Gateway using the UI and then verify that igmp-proxy is running by `ssh`-ing to the *Gateway*  and running `ps aux | grep igmp` to verify that `/sbin/igmpproxy` is running.
