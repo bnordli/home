@@ -63,4 +63,12 @@ Settings -> More connections -> VPN
 
 ### Notes
 
-It doesn't seem to be possible to get proper mDNS through VPN, since that would need layer 2 connectivity, which is not supported on Android
+It doesn't seem to be possible to get proper mDNS through VPN, since that would need layer 2 connectivity, which is not supported on Android.
+
+## Windows
+
+TBD
+
+## Ubuntu
+
+TBD
