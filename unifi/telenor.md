@@ -68,3 +68,8 @@ chown -R unifi:unifi ..
 
 Reprovision the Gateway using the UI and then verify that igmp-proxy is running by `ssh`-ing to the *Gateway*  and running `ps aux | grep igmp` to verify that `/sbin/igmpproxy` is running. You can also see IGMP statistics with the commands `show ip multicast interfaces` and `show ip multicast mfc`.
 
+### Restart IGMP proxy
+
+```
+restart igmp-proxy
+```
