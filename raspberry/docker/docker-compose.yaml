@@ -6,6 +6,7 @@ services:
     volumes:
       - /external/homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
+      - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
     restart: unless-stopped
     network_mode: host
   pihole:
