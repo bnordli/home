@@ -7,6 +7,8 @@ services:
       - /external/homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
       - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
+    devices:
+      - /dev/serial/by-id/usb-RFXCOM_RFXtrx433XL_DO5OOZ1D-if00-port0:/dev/ttyRFXtrx
     restart: unless-stopped
     network_mode: host
   pihole:
