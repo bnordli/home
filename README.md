@@ -2,7 +2,7 @@
 
 ## Network Setup
 
-Fiber subscription: [Telenor fiber](https://www.telenor.no/privat/internett/fiber/) (Bredbånd 300).
+Fiber subscription: [Telenor fiber](https://www.telenor.no/privat/internett/fiber/) (Bredbånd 350).
 
 ONT: Unknown (installed by fiber installer).
 
@@ -26,10 +26,16 @@ Other equipment:
   - 1x [Western Digital Caviar Green 1,5TB](https://www.komplett.no/product/445869)
   - 1x [Western Digital Caviar Green 1TB](https://www.komplett.no/product/575186)
   - (The last two hard disks are >10y old and leftovers from my old NAS. One of them is reporting two bad sectors, so nothing important is stored on them.)
-- 2x [T-We Boks II](https://www.telenor.no/privat/tv/t-we/dekoder/), using IPTV (not coax)
+- Two media rooms:
+  - 2x [T-We Boks II](https://www.telenor.no/privat/tv/t-we/dekoder/), using IPTV (not coax)
+  - 2x [Harmony Elite w/hubs](https://www.logitech.com/no-no/products/harmony/harmony-elite.915-000257.html)
+  - One room with a Sony Bravia 4K TV and a Denon Compact Stereo System
+  - One room with an Epson HD projector, Onkyo TX-NR626, Chromecast and PS3
+
 - [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523)
+  - An [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used to connect to Somfy blinds and Nexa buttons/switches.
+- A [Plejd](https://www.plejd.com/en-no/products) mesh of switches and "pucks" (dimmers and relays).
 - Various phones, ipads and computers.
-- Chromecast, PS3, Onkyo TX-NR626.
 
 All network equiment are mounted in a 6U [Startech 19" rack](https://www.dustinhome.no/product/5011089096/startech-wall-mounted-19-rack-6u).
 
