@@ -3,11 +3,13 @@
 ## Network Setup
 
 Fiber subscription: [Telenor fiber](https://www.telenor.no/privat/internett/fiber/) (Bredbånd 300).
+
 ONT: Unknown (installed by fiber installer).
+
 Router: [Unifi Security Gateway Pro 4](https://www.ui.com/unifi-routing/unifi-security-gateway-pro-4/).
 
 Switches:
--  [Unifi Switch 24 PoE (120w)](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-24-poe)
+-  [Unifi Switch 24 PoE (120w)](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-24-poe) with [replaced fans from Noctua](https://www.proshop.no/Kabinettkjoeler/Noctua-NF-A4x20-FLX-Kabinettvifte-40-mm-15-dBA/2595710)
 -  2x [Unifi Switch Flex Mini](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-flex-mini). These are powered over PoE.
 
 Access points:
@@ -25,6 +27,7 @@ Other equipment:
   - 1x [Western Digital Caviar Green 1TB](https://www.komplett.no/product/575186)
   - (The last two hard disks are >10y old and leftovers from my old NAS. One of them is reporting two bad sectors, so nothing important is stored on them.)
 - 2x [T-We Boks II](https://www.telenor.no/privat/tv/t-we/dekoder/), using IPTV (not coax)
+- [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523)
 - Various phones, ipads and computers.
 - Chromecast, PS3, Onkyo TX-NR626.
 
