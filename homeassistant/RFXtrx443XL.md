@@ -53,7 +53,7 @@ input the values noted above, send your command and observe the results.
 
 ## Setup in Home Assistant
 After the initial setup, the device can be moved to Raspberry Pi (or whichever computer runs Home Assistant).
-(After moving, the RFXmngr can connect remotely using `socat`, example script [here](../../raspberry/rfx_remote.sh).)
+(After moving, the RFXmngr can connect remotely using `socat`, example script [here](../raspberry/rfx_remote.sh).)
 
 1. Find the USB device id using `ls /dev/serial/by-id`
 2. Mount the USB device inside the HA container:
