@@ -1,3 +1,5 @@
+This is how you can set up a VPN server on USG in order to connect home from a remote location.
+
 # Configure Dynamic DNS
 
 Services -> Dynamic DNS -> Create New Dynamic DNS
