@@ -28,6 +28,17 @@ services:
       - /external/pihole/pihole:/etc/pihole
       - /external/pihole/dnsmasq.d:/etc/dnsmasq.d
     restart: unless-stopped
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    ports:
+      - 80:80/tcp
+      - 443:443/tcp
+    volumes:
+      - /external/nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /home/pi/certbot/www:/var/www/certbot
+
 secrets:
   pihole:
     file: ./pihole.pw
