@@ -1,3 +1,26 @@
+# I give up
+
+Scratch all below, I have (for the time being) given up on getting IPTV to run behind the Security Gateway. My solution: Put the IPTV boxes outside of the USG. This will work either behind the Telenor router, or behind no router at all.
+
+Steps:
+
+1. In the Unifi controller, create an extra VLAN (INTERNET) with purpose "VLAN Only".
+2. Connect the Internet (from the ONT) to port A, the Telenor Router's WAN port to port B and USG's WAN port to port C to one of your Unifi switches.
+3. Tag port A, B and C with VLAN INTERNET (only).
+4. **Important:** Create a switch port profile with name "Default" with all VLANs *except* INTERNET and assign **all other switch ports** to this profile.
+5. Connect USG's LAN port to any other port on your switch. This port will look like an uplink to this switch.
+6. Connect the IPTV boxes to the Telenor Router's LAN ports and the rest of your equipment to your Unifi switches as normal.
+
+The USG and the Telenor Router will now have different public IPs and sit in their own separated networks. You will not be able to use all functionality of the T-We app.)
+
+(Side note on step 4: USW Flex Mini doesn't support custom port profiles, for some reason. You can still use them as long as no IPTV boxes are connected to them, and no INTERNET traffic is sent to them.)
+
+Alternatively, you can connect the IPTV box(es) to an INTERNET tagged port to give it a public IP. The Telenor router can then be disconnected.
+
+TODO: Diagram
+
+(The rest of this page is obsolete.)
+
 # IPTV from Telenor (T-We) with Unifi gear
 
 Telenor doesn't officially support IPTV over custom routers (or even switches). But as of June 2020, some third party documentation from Telenor can be found [here](https://www.telenor.no/binaries/privat/kundeservice/tvhjelp/utstyr/tredjeparts-utstyr/IPTV%20tredjepart%20veiledning%20juni%202020.pdf) (in Norwegian).

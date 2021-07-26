@@ -1,4 +1,4 @@
-I run Home Assistant in Docker on a Raspberry Pi 4.
+I run [Home Assistant](https://www.home-assistant.io/) in Docker on a Raspberry Pi 4.
 
 See the [docker compose](../raspberry/docker/docker-compose.yaml) file for setup.
 

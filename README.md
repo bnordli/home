@@ -23,7 +23,7 @@ Other equipment:
 - [BlueWalker PowerWalker 450W](https://www.komplett.no/product/1104062/datautstyr/pc-tilbehoer/ups-overspenningsvern/ups-og-ups-batteri/bluewalker-powerwalker-ups-vi-750-r1u)
 - [Synology Rackstation 819](https://www.synology.com/en-global/products/RS819), with
   - 2x [Seagate IronWolf 4TB](https://www.komplett.no/product/898981/datautstyr/lagring/harddiskerssd/harddisk-35/seagate-ironwolf-4tb-35-nas-hdd)
-  - 1x [Western Digital Caviar Green 1,5TB](https://www.komplett.no/product/445869)
+  - 1x [Western Digital Caviar Green 1.5TB](https://www.komplett.no/product/445869)
   - 1x [Western Digital Caviar Green 1TB](https://www.komplett.no/product/575186)
   - (The last two hard disks are >10y old and leftovers from my old NAS. One of them is reporting two bad sectors, so nothing important is stored on them.)
 - Two media rooms:
@@ -35,6 +35,7 @@ Other equipment:
 - [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523)
   - An [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used to connect to Somfy blinds and Nexa buttons/switches.
 - A [Plejd](https://www.plejd.com/en-no/products) mesh of switches and "pucks" (dimmers and relays).
+- Some [Shelly](https://shelly.cloud/) WiFi connected relays.
 - Various phones, ipads and computers.
 
 All network equiment are mounted in a 6U [Startech 19" rack](https://www.dustinhome.no/product/5011089096/startech-wall-mounted-19-rack-6u).
