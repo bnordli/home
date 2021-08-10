@@ -63,4 +63,4 @@ devices:
 ```
 3. Add the [`rfxtrx` HA integration](https://www.home-assistant.io/integrations/rfxtrx/) using the address `/dev/ttyRFXtrx`.
 4. Select "Enable automatic add" to autodiscover devices. **Note: This might add your neighbor's weather stations, lights and/or smoke detectors. If this occurs, please disable those entities as soon as they are discovered.**
-5. I had to add my Somfy RTS remotes manually, using the event codes `071a000[ID]0[Unit Code]`. Example for ID `1 02 03 04` and Unit Code `2`: `071a000102030402`.
+5. I had to add my Somfy RTS remotes manually, using the event codes `071a000[ID]0[Unit Code]`. Example for ID `1 02 03` and Unit Code `2`: `071a000001020302`.
