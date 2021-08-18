@@ -24,4 +24,4 @@ To run [Home Assistant](../homeassistant) and [Pi-hole](../pihole), Docker and D
 
 # Availability checker
 
-Home Assistant (and therefore Raspberry) availability checked using a scheduled [Rackstation](../rackstation) task (`curl raspberrypi:8123`, send notification on non-zero exit). Thus I will quickly get an email if the instance cannot be reached.
+Home Assistant (and therefore Raspberry) availability checked using a scheduled [Rackstation](../rackstation) task (`curl -m 3 raspberrypi:8123`, send notification on non-zero exit). Thus I will quickly get an email if the instance cannot be reached.
