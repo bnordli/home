@@ -73,4 +73,4 @@ TBD
 
 ## Ubuntu
 
-TBD
+See https://www.tecmint.com/setup-l2tp-ipsec-vpn-client-in-linux/
