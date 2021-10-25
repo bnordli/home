@@ -8,9 +8,9 @@ The only device currently connected is a [RFXtrx433XL](http://www.rfxcom.com/RFX
 
 The Raspberry's SD card was flashed using the [Raspberry Pi Imager](https://www.raspberrypi.org/software/). Since I don't have a screen connected, I chose Raspberry Pi OS Lite (32-bit). Before putting the SD card back in the Raspberry Pi, remember to add an empty file named `ssh` in order to be able to connect to it. The default password is `raspberry` -- be sure to change this during the first login.
 
-To avoid excessive SD card usage, a volume on the [Rackstation](../rackstation) is mounted using [fstab].
+To avoid excessive SD card usage, a volume on the [Rackstation](../rackstation) is mounted using [fstab](fstab).
 
-See [config.txt] for more configuration.
+See [config.txt](config.txt) for more configuration.
 
 Areas of interest:
 * Since the unit is headless, we can set `gpu_mem=16`
