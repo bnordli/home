@@ -21,7 +21,7 @@ Areas of interest:
 
 # Docker
 
-To run [Home Assistant](../homeassistant), [Pi-hole](../pihole) and [nginx](../nginx), Docker and Docker compose is installed. [Instructions](https://docs.docker.com/compose/install/).
+To run [Home Assistant](../homeassistant), [Pi-hole](../pihole) and [nginx](nginx), Docker and Docker compose is installed. [Instructions](https://docs.docker.com/compose/install/).
 
 [Configuration](docker).
 
