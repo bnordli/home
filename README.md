@@ -34,7 +34,7 @@ Other equipment:
 
 - [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with a [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523) and [ICY BOX case](https://www.komplett.no/product/1162231?noredirect=true)
   - An [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used to connect to Somfy blinds and Nexa buttons/switches.
-  - A [3.5" HDD case](https://www.komplett.no/product/760841?noredirect=true) with a 160GB Intel SSD salvaged from an older computer. 
+  - A [2.5" drive case case](https://www.komplett.no/product/760841?noredirect=true) with a 160GB Intel SSD salvaged from an older computer. 
 - A [Plejd](https://www.plejd.com/en-no/products) mesh of switches and "pucks" (dimmers and relays).
 - Some [Shelly](https://shelly.cloud/) WiFi connected relays.
 - A [Netatmo weather station with an extra indoor module](https://www.proshop.no/Smarthus/Netatmo-Smart-Vaerstasjon-Inneklima-maaler/2807681)
