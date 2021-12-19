@@ -1,8 +1,11 @@
 # Hardware
 
-The Raspberry Pi is powered using a [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-PoE-HAT/2964666). After the hat is mounted, it is just plug and play.
+The Raspberry Pi is powered using a [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-PoE-HAT/2964666). After the hat is mounted, it is just plug and play. It is installed in [this case](https://www.komplett.no/product/1162231?noredirect=true), and although it claims to support hats, it did not fit the PoE hat exactly, as some screw fasteners needed to be shortened.
 
-The only device currently connected is a [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used by [Home Assistant](https://github.com/bnordli/home/blob/main/homeassistant/RFXtrx443XL.md).
+## Connected devices
+
+- One [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used by [Home Assistant](https://github.com/bnordli/home/blob/main/homeassistant/RFXtrx443XL.md).
+- One old 160GB Intel SSD mounted in a [2"5 cabinet](https://www.komplett.no/product/760841?noredirect=true), used to offload the SD card.
 
 # Configuration
 
@@ -18,10 +21,10 @@ Areas of interest:
 
 # Docker
 
-To run [Home Assistant](../homeassistant) and [Pi-hole](../pihole), Docker and Docker compose is installed. [Instructions](https://docs.docker.com/compose/install/).
+To run [Home Assistant](../homeassistant), [Pi-hole](../pihole) and [nginx](../nginx), Docker and Docker compose is installed. [Instructions](https://docs.docker.com/compose/install/).
 
 [Configuration](docker).
 
 # Availability checker
 
-Home Assistant (and therefore Raspberry) availability checked using a scheduled [Rackstation](../rackstation) task (`curl -m 3 raspberrypi:8123`, send notification on non-zero exit). Thus I will quickly get an email if the instance cannot be reached.
+Home Assistant (and therefore Raspberry) availability checked using a scheduled [Rackstation](../rackstation) task (`curl -m 3 [raspberry-pi-ip]:8123`, send notification on non-zero exit). Thus I will quickly get an email if the instance cannot be reached.
