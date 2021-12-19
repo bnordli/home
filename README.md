@@ -37,6 +37,7 @@ Other equipment:
   - A [2.5" drive case case](https://www.komplett.no/product/760841?noredirect=true) with a 160GB Intel SSD salvaged from an older computer. 
 - A [Plejd](https://www.plejd.com/en-no/products) mesh of switches and "pucks" (dimmers and relays).
 - Some [Shelly](https://shelly.cloud/) WiFi connected relays.
+- Quite a few Nexa [wall plugs](https://www.clasohlson.com/no/Nexa-MYC-3-fjernstr&oslash;mbryter-3-pakning-/p/36-6902), [motion sensors](https://www.clasohlson.com/no/Nexa-bevegelsessensor-MIMST-1703/p/36-7577), [door sensors](https://www.clasohlson.com/no/Nexa-magnetkontakt-MEST-1701/p/36-7575) and [wall buttons](https://www.clasohlson.com/no/NEXA-WTE-1-WTE-2-tr&aring;dl&oslash;s-bryter/p/36-4920). 
 - A [Netatmo weather station with an extra indoor module](https://www.proshop.no/Smarthus/Netatmo-Smart-Vaerstasjon-Inneklima-maaler/2807681).
 - A [Tibber Pulse](https://tibber.com/no/store/produkt/pulse) for real-time monitoring of energy usage.
 - Various phones, iPads and computers.
