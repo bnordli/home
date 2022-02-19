@@ -9,7 +9,7 @@ ONT: Unknown (installed by fiber installer).
 Router: [Unifi Security Gateway Pro 4](https://www.ui.com/unifi-routing/unifi-security-gateway-pro-4/).
 
 Switches:
--  [Unifi Switch 24 PoE (120w)](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-24-poe) with [replaced fans from Noctua](https://www.proshop.no/Kabinettkjoeler/Noctua-NF-A4x20-FLX-Kabinettvifte-40-mm-15-dBA/2595710)
+-  [Unifi Switch 24 PoE (120w)](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-24-poe) with [replaced fans from Noctua](https://www.proshop.no/Kabinettkjoeler/Noctua-NF-A4x20-FLX-Kabinettvifte-40-mm-15-dBA/2595710).
 -  2x [Unifi Switch Flex Mini](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/usw-flex-mini). These are powered over PoE.
 
 Access points:
@@ -32,11 +32,15 @@ Other equipment:
   - One room with a Sony Bravia 4K TV and a Denon Compact Stereo System
   - One room with an Epson HD projector, Onkyo TX-NR626, Chromecast and PS3
 
-- [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523)
+- [Raspberry Pi 4 B (4GB)](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-4-Model-B-4GB/2780502) with a [PoE hat](https://www.proshop.no/Mini-PC-Android-Raspberry-Pi/Raspberry-Pi-Powerboard-PoE-HAT/2652523) and [ICY BOX case](https://www.komplett.no/product/1162231?noredirect=true)
   - An [RFXtrx433XL](http://www.rfxcom.com/RFXtrx433XL), used to connect to Somfy blinds and Nexa buttons/switches.
+  - A [2.5" drive case case](https://www.komplett.no/product/760841?noredirect=true) with a 160GB Intel SSD salvaged from an older computer. 
 - A [Plejd](https://www.plejd.com/en-no/products) mesh of switches and "pucks" (dimmers and relays).
 - Some [Shelly](https://shelly.cloud/) WiFi connected relays.
-- Various phones, ipads and computers.
+- Quite a few Nexa [wall plugs](https://www.clasohlson.com/no/Nexa-MYC-3-fjernstr&oslash;mbryter-3-pakning-/p/36-6902), [motion sensors](https://www.clasohlson.com/no/Nexa-bevegelsessensor-MIMST-1703/p/36-7577), [door sensors](https://www.clasohlson.com/no/Nexa-magnetkontakt-MEST-1701/p/36-7575) and [wall buttons](https://www.clasohlson.com/no/NEXA-WTE-1-WTE-2-tr&aring;dl&oslash;s-bryter/p/36-4920). 
+- A [Netatmo weather station with an extra indoor module](https://www.proshop.no/Smarthus/Netatmo-Smart-Vaerstasjon-Inneklima-maaler/2807681).
+- A [Tibber Pulse](https://tibber.com/no/store/produkt/pulse) for real-time monitoring of energy usage.
+- Various phones, iPads and computers.
 
-All network equiment are mounted in a 6U [Startech 19" rack](https://www.dustinhome.no/product/5011089096/startech-wall-mounted-19-rack-6u).
+All network equipment are mounted in a 6U [Startech 19" rack](https://www.dustinhome.no/product/5011089096/startech-wall-mounted-19-rack-6u).
 

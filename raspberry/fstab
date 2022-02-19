@@ -1,6 +1,7 @@
 proc            /proc           proc    defaults          0       0
 PARTUUID=c2b5befe-01  /boot           vfat    defaults          0       2
 PARTUUID=c2b5befe-02  /               ext4    defaults,noatime  0       1
-10.117.1.5:/volume1/raspberry /external nfs defaults,auto 0 0 
+10.117.1.5:/volume1/raspberry /external nfs defaults,auto 0 0
+/dev/sda1             /mnt/ssd        ext4    defaults          0       0
 # a swapfile is not a swap partition, no line here
 #   use  dphys-swapfile swap[on|off]  for that
