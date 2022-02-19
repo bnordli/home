@@ -10,7 +10,7 @@ mkdir -f /home/pi/certbot/www
 ```
 
 * Start nginx with the bootstrap configuration
-* Request certificate: `certbot certonly --webroot -w /home/pi/certbot/www --email bnordli@gmail.com -d home.plingri.net -d ph.home.plingri.net -d rs.home.plingri.net -d ha.home.plingri.net -d ck.home.plingri.net --rsa-key-size=4096 --agree-tos --force-renewal --logs-dir /home/pi/certbot/log`
+* Request certificate: `certbot certonly --webroot -w /home/pi/certbot/www --email bnordli@gmail.com -d home.plingri.net -d ph.home.plingri.net -d rs.home.plingri.net -d ha.home.plingri.net -d ck.home.plingri.net -d nr.home.plingri.net -d mq.home.plingri.net --rsa-key-size=4096 --agree-tos --force-renewal --logs-dir /home/pi/certbot/log`
 * Restart nginx with the normal configuration
 
 # Renewal
