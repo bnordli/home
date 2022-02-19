@@ -11,6 +11,15 @@ services:
       - /dev/serial/by-id/usb-RFXCOM_RFXtrx433XL_DO5OOZ1D-if00-port0:/dev/ttyRFXtrx
     restart: unless-stopped
     network_mode: host
+  node-red:
+    container_name: nodered
+    image: nodered/node-red:latest
+    environment:
+      - TZ=Europe/Oslo
+    ports:
+      - 1880:1880/tcp
+    volumes:
+      - /mnt/ssd/node-red:/data
   pihole:
     container_name: pihole
     image: pihole/pihole:latest
@@ -38,6 +47,17 @@ services:
       - /external/nginx:/etc/nginx/conf.d
       - /etc/letsencrypt:/etc/letsencrypt
       - /home/pi/certbot/www:/var/www/certbot
+    restart: unless-stopped
+  sql:
+    container_name: sql
+    image: jsurf/rpi-mariadb:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: db
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+    volumes:
+      - /mnt/ssd/sql:/var/lib/mysql
     restart: unless-stopped
 
 secrets:
